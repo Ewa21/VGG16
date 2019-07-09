@@ -5,8 +5,8 @@ from __future__ import print_function
 import keras
 from keras.preprocessing.image import ImageDataGenerator, load_img
 
-train_dir = './clean-dataset/train'
-validation_dir = './clean-dataset/validation'
+train_dir = './data121/train'
+validation_dir = './data121/validation'
 image_size = 224
 
 from keras.applications import VGG16
