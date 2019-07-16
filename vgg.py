@@ -1,12 +1,11 @@
+from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
-from __future__ import print_function
 import keras
 from keras.preprocessing.image import ImageDataGenerator, load_img
 
-train_dir = './data121/train'
-validation_dir = './data121/validation'
+train_dir = '/macierz/home/s165128/dishRecognizer/src/networks/data/training'
+validation_dir = '/macierz/home/s165128/dishRecognizer/src/networks/data/validation'
 image_size = 224
 
 from keras.applications import VGG16
